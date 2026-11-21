@@ -1,0 +1,38 @@
+{
+  "repository": "caprover/caprover",
+  "checked_at": "2026-11-21T21:17:34.399635+08:00",
+  "revision": "309b588425128f1d0d105373c3f90979a26bae5e",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/caprover/caprover.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n309b588425128f1d0d105373c3f90979a26bae5e\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+      "final_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+      "path": "sources/snapshots/caprover--caprover-readme.txt",
+      "sha256": "9605d175852accc255d7d182cc64f3700ec436be0a66def80c919f373c019ce8",
+      "http_status": 200,
+      "line_count": 61,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/LICENSE",
+      "path": "sources/snapshots/caprover--caprover-license.txt",
+      "sha256": "1b8e0ab0432e21c4b97f1ff03be3ed85f3836dc6799ec0584fe42c118f40d38f",
+      "http_status": 200,
+      "line_count": 13,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "portainer/portainer",
+  "checked_at": "2026-11-21T21:17:26.652944+08:00",
+  "revision": "08a5576af343fe330ae57f9a9d16b5085df37097",
+  "branch": "release/2.45",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/portainer/portainer.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/release/2.45\tHEAD\n08a5576af343fe330ae57f9a9d16b5085df37097\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/README.md",
+      "final_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/README.md",
+      "path": "sources/snapshots/portainer--portainer-readme.txt",
+      "sha256": "aff8e776bf21d85726d824238724e170d5653fedd6c1e3fa2581425cab57dfba",
+      "http_status": 200,
+      "line_count": 61,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/LICENSE",
+      "path": "sources/snapshots/portainer--portainer-license.txt",
+      "sha256": "c83f08165206f8a2831009fa4a469d41e452f6e086945246fe928a94a5420722",
+      "http_status": 200,
+      "line_count": 17,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

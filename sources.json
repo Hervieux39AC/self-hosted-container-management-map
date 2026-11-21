@@ -1,0 +1,1234 @@
+{
+  "repository": "self-hosted-container-management-map",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Portainer",
+      "repository": "portainer/portainer",
+      "url": "https://github.com/portainer/portainer",
+      "clone_url": "https://github.com/portainer/portainer.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:26.652944+08:00",
+      "version_or_commit": "08a5576af343fe330ae57f9a9d16b5085df37097",
+      "branch_at_observation": "release/2.45",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/README.md",
+          "final_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/README.md",
+          "path": "sources/snapshots/portainer--portainer-readme.txt",
+          "sha256": "aff8e776bf21d85726d824238724e170d5653fedd6c1e3fa2581425cab57dfba",
+          "http_status": 200,
+          "line_count": 61,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/LICENSE",
+          "path": "sources/snapshots/portainer--portainer-license.txt",
+          "sha256": "c83f08165206f8a2831009fa4a469d41e452f6e086945246fe928a94a5420722",
+          "http_status": 200,
+          "line_count": 17,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/portainer/portainer.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/release/2.45\tHEAD\n08a5576af343fe330ae57f9a9d16b5085df37097\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "portainer--portainer-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Portainer Community Edition is a free, lightweight container management UI for Docker, Swarm, Podman, Kubernetes, and ACI environments. It is provided as-is, at no cost, for the convenience of homelab\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/README.md",
+          "version_or_commit": "08a5576af343fe330ae57f9a9d16b5085df37097",
+          "checked_at": "2026-11-21T21:17:26.652944+08:00",
+          "snapshot_path": "sources/snapshots/portainer--portainer-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "**Portainer Community Edition** is a free, lightweight container management UI for Docker, Swarm, Podman, Kubernetes, and ACI environments. It is provided as-is, at no cost, for the convenience of homelab operators, hobbyists, students, and anyone experimenting with containers on their own hardware.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "portainer--portainer-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Portainer Business Edition builds on the same open-source base and adds the features, hardening, and commercial support that production and enterprise environments require (RBAC, GitOps, edge manageme\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/README.md",
+          "version_or_commit": "08a5576af343fe330ae57f9a9d16b5085df37097",
+          "checked_at": "2026-11-21T21:17:26.652944+08:00",
+          "snapshot_path": "sources/snapshots/portainer--portainer-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "**Portainer Business Edition** builds on the same open-source base and adds the features, hardening, and commercial support that production and enterprise environments require (RBAC, GitOps, edge management, audit, SSO, and more).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "portainer--portainer-license",
+          "field": "license_model",
+          "statement": "zlib for CE; separate commercial Business Edition",
+          "upstream_url": "https://raw.githubusercontent.com/portainer/portainer/08a5576af343fe330ae57f9a9d16b5085df37097/LICENSE",
+          "version_or_commit": "08a5576af343fe330ae57f9a9d16b5085df37097",
+          "checked_at": "2026-11-21T21:17:26.652944+08:00",
+          "snapshot_path": "sources/snapshots/portainer--portainer-license.txt",
+          "line_start": 1,
+          "line_end": 17,
+          "upstream_excerpt": "Copyright (c) 2018 Portainer.io\n\nThis software is provided 'as-is', without any express or implied\nwarranty.  In no event will the authors be held liable for any damages\narising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose,\nincluding commercial applications, and to alter it and redistribute it\nfreely, subject to the following restrictions:\n\n1. The origin of this software must not be misrepresented; you must not\n   claim that you wrote the original software. If you use this software\n   in a product, an acknowledgment in the product documentation would be\n   appreciated but is not required.\n2. Altered source versions must be plainly marked as such, and must not be\n   misrepresented as being the original software.\n3. This notice may not be removed or altered from any source distribution.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/portainer--portainer-observation.json"
+    },
+    {
+      "name": "Dockge",
+      "repository": "louislam/dockge",
+      "url": "https://github.com/louislam/dockge",
+      "clone_url": "https://github.com/louislam/dockge.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:28.103180+08:00",
+      "version_or_commit": "0329dabb5003f206d4fd9f7403a6af26d7138497",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md",
+          "final_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md",
+          "path": "sources/snapshots/louislam--dockge-readme.txt",
+          "sha256": "30189a5bc9d869934fcd34d11f44e1f9ac36387554d73fd318263ba014cbe32d",
+          "http_status": 200,
+          "line_count": 207,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/LICENSE",
+          "path": "sources/snapshots/louislam--dockge-license.txt",
+          "sha256": "855cc98448b71dd58af101ded07b601e2c7aa02167f7663b5b9282a99c61ad61",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/louislam/dockge.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n0329dabb5003f206d4fd9f7403a6af26d7138497\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "louislam--dockge-axis-1",
+          "field": "decision_axis_1",
+          "statement": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md",
+          "version_or_commit": "0329dabb5003f206d4fd9f7403a6af26d7138497",
+          "checked_at": "2026-11-21T21:17:28.103180+08:00",
+          "snapshot_path": "sources/snapshots/louislam--dockge-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "louislam--dockge-axis-2",
+          "field": "decision_axis_2",
+          "statement": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md",
+          "version_or_commit": "0329dabb5003f206d4fd9f7403a6af26d7138497",
+          "checked_at": "2026-11-21T21:17:28.103180+08:00",
+          "snapshot_path": "sources/snapshots/louislam--dockge-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "louislam--dockge-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/LICENSE",
+          "version_or_commit": "0329dabb5003f206d4fd9f7403a6af26d7138497",
+          "checked_at": "2026-11-21T21:17:28.103180+08:00",
+          "snapshot_path": "sources/snapshots/louislam--dockge-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2023 Louis Lam\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/louislam--dockge-observation.json"
+    },
+    {
+      "name": "Yacht",
+      "repository": "Yacht-sh/Yacht",
+      "url": "https://github.com/Yacht-sh/Yacht",
+      "clone_url": "https://github.com/Yacht-sh/Yacht.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:29.144031+08:00",
+      "version_or_commit": "dd5058baa0e7f9e77ae1c24b68b4b13411cac14e",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+          "final_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+          "path": "sources/snapshots/yacht-sh--yacht-readme.txt",
+          "sha256": "ca98aaedf3d7cd45799cead35a85a2e15267784c2d47beb5636c52464185bb2a",
+          "http_status": 200,
+          "line_count": 174,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/LICENSE",
+          "path": "sources/snapshots/yacht-sh--yacht-license.txt",
+          "sha256": "3d130577bd4404be11184b1d301a06f17d74f9102de84533d3af65d3ea9fa4f6",
+          "http_status": 200,
+          "line_count": 642,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Yacht-sh/Yacht.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\ndd5058baa0e7f9e77ae1c24b68b4b13411cac14e\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "yacht-sh--yacht-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- direct Docker API hosts added manually in the UI - agent-managed hosts where a yacht-agent container connects back to the main Yacht server",
+          "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+          "version_or_commit": "dd5058baa0e7f9e77ae1c24b68b4b13411cac14e",
+          "checked_at": "2026-11-21T21:17:29.144031+08:00",
+          "snapshot_path": "sources/snapshots/yacht-sh--yacht-readme.txt",
+          "line_start": 11,
+          "line_end": 12,
+          "upstream_excerpt": "- direct Docker API hosts added manually in the UI\n- agent-managed hosts where a `yacht-agent` container connects back to the main Yacht server",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "yacht-sh--yacht-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Yacht is a container management UI with a focus on templates and 1-click deployments.",
+          "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+          "version_or_commit": "dd5058baa0e7f9e77ae1c24b68b4b13411cac14e",
+          "checked_at": "2026-11-21T21:17:29.144031+08:00",
+          "snapshot_path": "sources/snapshots/yacht-sh--yacht-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Yacht is a container management UI with a focus on templates and 1-click deployments.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "yacht-sh--yacht-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- mounts the local Docker socket",
+          "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+          "version_or_commit": "dd5058baa0e7f9e77ae1c24b68b4b13411cac14e",
+          "checked_at": "2026-11-21T21:17:29.144031+08:00",
+          "snapshot_path": "sources/snapshots/yacht-sh--yacht-readme.txt",
+          "line_start": 41,
+          "line_end": 41,
+          "upstream_excerpt": "- mounts the local Docker socket",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "yacht-sh--yacht-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/LICENSE",
+          "version_or_commit": "dd5058baa0e7f9e77ae1c24b68b4b13411cac14e",
+          "checked_at": "2026-11-21T21:17:29.144031+08:00",
+          "snapshot_path": "sources/snapshots/yacht-sh--yacht-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/yacht-sh--yacht-observation.json"
+    },
+    {
+      "name": "Komodo",
+      "repository": "moghtech/komodo",
+      "url": "https://github.com/moghtech/komodo",
+      "clone_url": "https://github.com/moghtech/komodo.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:29.121374+08:00",
+      "version_or_commit": "780ac68b992094a9fccd5fffb760e0c84fd3c3d1",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/LICENSE",
+          "path": "sources/snapshots/moghtech--komodo-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        },
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/readme.md",
+          "final_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/readme.md",
+          "path": "sources/snapshots/moghtech--komodo-readme.txt",
+          "sha256": "59a871c5feb6223994537eadd63b1717c6b1215c0eb8dcc8e139808bf64d80ea",
+          "http_status": 200,
+          "line_count": 51,
+          "upstream_filename": "readme.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/moghtech/komodo.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n780ac68b992094a9fccd5fffb760e0c84fd3c3d1\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "moghtech--komodo-axis-1",
+          "field": "decision_axis_1",
+          "statement": "A tool to build and deploy software across many servers.",
+          "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/readme.md",
+          "version_or_commit": "780ac68b992094a9fccd5fffb760e0c84fd3c3d1",
+          "checked_at": "2026-11-21T21:17:29.121374+08:00",
+          "snapshot_path": "sources/snapshots/moghtech--komodo-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "A tool to build and deploy software across many servers. ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "moghtech--komodo-axis-2",
+          "field": "decision_axis_2",
+          "statement": "A tool to build and deploy software across many servers.",
+          "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/readme.md",
+          "version_or_commit": "780ac68b992094a9fccd5fffb760e0c84fd3c3d1",
+          "checked_at": "2026-11-21T21:17:29.121374+08:00",
+          "snapshot_path": "sources/snapshots/moghtech--komodo-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "A tool to build and deploy software across many servers. ",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "moghtech--komodo-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/LICENSE",
+          "version_or_commit": "780ac68b992094a9fccd5fffb760e0c84fd3c3d1",
+          "checked_at": "2026-11-21T21:17:29.121374+08:00",
+          "snapshot_path": "sources/snapshots/moghtech--komodo-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/moghtech--komodo-observation.json"
+    },
+    {
+      "name": "Cosmos",
+      "repository": "azukaar/Cosmos-Server",
+      "url": "https://github.com/azukaar/Cosmos-Server",
+      "clone_url": "https://github.com/azukaar/Cosmos-Server.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:31.960340+08:00",
+      "version_or_commit": "fa0a6523888d05c2b62540777aa29b0e875f1940",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/readme.md",
+          "final_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/readme.md",
+          "path": "sources/snapshots/azukaar--cosmos-server-readme.txt",
+          "sha256": "2c62707c057d47d73dc8403012ab785f343903b5615eb1061a3781145f4bf123",
+          "http_status": 200,
+          "line_count": 304,
+          "upstream_filename": "readme.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/LICENCE",
+          "final_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/LICENCE",
+          "path": "sources/snapshots/azukaar--cosmos-server-license.txt",
+          "sha256": "0ee85bb2ca17f136a2cefb4f7a65f6560b4a4373f84a2fb2a4b53954de77ce11",
+          "http_status": 200,
+          "line_count": 256,
+          "upstream_filename": "LICENCE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/azukaar/Cosmos-Server.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nfa0a6523888d05c2b62540777aa29b0e875f1940\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "azukaar--cosmos-server-axis-1",
+          "field": "decision_axis_1",
+          "statement": "No vendor-locking: Unlike solution that tightly couple their applications to the containers, Cosmos can manage apps created from anywhere all the same, and converting an existing container to a Cosmos\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/readme.md",
+          "version_or_commit": "fa0a6523888d05c2b62540777aa29b0e875f1940",
+          "checked_at": "2026-11-21T21:17:31.960340+08:00",
+          "snapshot_path": "sources/snapshots/azukaar--cosmos-server-readme.txt",
+          "line_start": 199,
+          "line_end": 199,
+          "upstream_excerpt": "* **No vendor-locking**: Unlike solution that tightly couple their applications to the containers, Cosmos can manage apps created from anywhere all the same, and converting an existing container to a Cosmos app is as simple as adding a URL in the UI. You can also migrate out of Cosmos at any time, as it only uses vanilla docker containers.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "azukaar--cosmos-server-axis-2",
+          "field": "decision_axis_2",
+          "statement": "App Store \ud83d\udce6\ud83d\udcf1 To easily install and manage your applications, with simple installers, automatic updates and security checks. This works alongside manual installation methods, such as importing docker-c\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/readme.md",
+          "version_or_commit": "fa0a6523888d05c2b62540777aa29b0e875f1940",
+          "checked_at": "2026-11-21T21:17:31.960340+08:00",
+          "snapshot_path": "sources/snapshots/azukaar--cosmos-server-readme.txt",
+          "line_start": 43,
+          "line_end": 43,
+          "upstream_excerpt": " * **App Store** \ud83d\udce6\ud83d\udcf1 To easily install and manage your applications, with simple installers, automatic updates and security checks. This works alongside manual installation methods, such as importing docker-compose files, or the docker CLI",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "azukaar--cosmos-server-license",
+          "field": "license_model",
+          "statement": "Apache-2.0 with Commons Clause 1.0; not plain OSI-open-source licensing",
+          "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/LICENCE",
+          "version_or_commit": "fa0a6523888d05c2b62540777aa29b0e875f1940",
+          "checked_at": "2026-11-21T21:17:31.960340+08:00",
+          "snapshot_path": "sources/snapshots/azukaar--cosmos-server-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Software: Cosmos-Server\n\nLicense: Apache 2.0 with Commons Clause and Anti Tampering Clause\n\nLicensor: Yann Stepienik\n\n---------------------------------------------------------------------\n\n      \u201cCommons Clause\u201d License Condition v1.0\n\n      The Software is provided to you by the Licensor under the\n      License, as defined below, subject to the following condition.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/azukaar--cosmos-server-observation.json"
+    },
+    {
+      "name": "CapRover",
+      "repository": "caprover/caprover",
+      "url": "https://github.com/caprover/caprover",
+      "clone_url": "https://github.com/caprover/caprover.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:34.399635+08:00",
+      "version_or_commit": "309b588425128f1d0d105373c3f90979a26bae5e",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+          "final_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+          "path": "sources/snapshots/caprover--caprover-readme.txt",
+          "sha256": "9605d175852accc255d7d182cc64f3700ec436be0a66def80c919f373c019ce8",
+          "http_status": 200,
+          "line_count": 61,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/LICENSE",
+          "path": "sources/snapshots/caprover--caprover-license.txt",
+          "sha256": "1b8e0ab0432e21c4b97f1ff03be3ed85f3836dc6799ec0584fe42c118f40d38f",
+          "http_status": 200,
+          "line_count": 13,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/caprover/caprover.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n309b588425128f1d0d105373c3f90979a26bae5e\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "caprover--caprover-axis-1",
+          "field": "decision_axis_1",
+          "statement": "\u2714 Docker Swarm under the hood for containerization and clustering",
+          "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+          "version_or_commit": "309b588425128f1d0d105373c3f90979a26bae5e",
+          "checked_at": "2026-11-21T21:17:34.399635+08:00",
+          "snapshot_path": "sources/snapshots/caprover--caprover-readme.txt",
+          "line_start": 34,
+          "line_end": 34,
+          "upstream_excerpt": "\u2714 Docker Swarm under the hood for containerization and clustering",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "caprover--caprover-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Easiest app/database deployment platform and webserver package for your NodeJS, Python, PHP, Ruby, Go applications.",
+          "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+          "version_or_commit": "309b588425128f1d0d105373c3f90979a26bae5e",
+          "checked_at": "2026-11-21T21:17:34.399635+08:00",
+          "snapshot_path": "sources/snapshots/caprover--caprover-readme.txt",
+          "line_start": 13,
+          "line_end": 13,
+          "upstream_excerpt": "Easiest app/database deployment platform and webserver package for your NodeJS, Python, PHP, Ruby, Go applications.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "caprover--caprover-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Easiest app/database deployment platform and webserver package for your NodeJS, Python, PHP, Ruby, Go applications.",
+          "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/README.md",
+          "version_or_commit": "309b588425128f1d0d105373c3f90979a26bae5e",
+          "checked_at": "2026-11-21T21:17:34.399635+08:00",
+          "snapshot_path": "sources/snapshots/caprover--caprover-readme.txt",
+          "line_start": 13,
+          "line_end": 13,
+          "upstream_excerpt": "Easiest app/database deployment platform and webserver package for your NodeJS, Python, PHP, Ruby, Go applications.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "caprover--caprover-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/caprover/caprover/309b588425128f1d0d105373c3f90979a26bae5e/LICENSE",
+          "version_or_commit": "309b588425128f1d0d105373c3f90979a26bae5e",
+          "checked_at": "2026-11-21T21:17:34.399635+08:00",
+          "snapshot_path": "sources/snapshots/caprover--caprover-license.txt",
+          "line_start": 3,
+          "line_end": 5,
+          "upstream_excerpt": "Licensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/caprover--caprover-observation.json"
+    },
+    {
+      "name": "Coolify",
+      "repository": "coollabsio/coolify",
+      "url": "https://github.com/coollabsio/coolify",
+      "clone_url": "https://github.com/coollabsio/coolify.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:35.754883+08:00",
+      "version_or_commit": "91b7e3e509dee1eb5cee7c41fe151be03b03092e",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+          "final_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+          "path": "sources/snapshots/coollabsio--coolify-readme.txt",
+          "sha256": "0cd76a343571f0025f3ff22df095a3ab4c745e73543fe1b48609ba3f158c6477",
+          "http_status": 200,
+          "line_count": 252,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/LICENSE",
+          "path": "sources/snapshots/coollabsio--coolify-license.txt",
+          "sha256": "1a3e7d8a466b117e9c26062db5fd6a59bb03caf617517d1f57a4bc7f29dc9d24",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/coollabsio/coolify.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n91b7e3e509dee1eb5cee7c41fe151be03b03092e\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "coollabsio--coolify-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Coolify is an open-source, self-hostable platform for deploying any application, database, or service on your own servers. It is an alternative to Heroku, Netlify, and Vercel.",
+          "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+          "version_or_commit": "91b7e3e509dee1eb5cee7c41fe151be03b03092e",
+          "checked_at": "2026-11-21T21:17:35.754883+08:00",
+          "snapshot_path": "sources/snapshots/coollabsio--coolify-readme.txt",
+          "line_start": 10,
+          "line_end": 10,
+          "upstream_excerpt": "Coolify is an open-source, self-hostable platform for deploying **any application, database, or service** on your own servers. It is an alternative to Heroku, Netlify, and Vercel.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "coollabsio--coolify-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Coolify is an open-source, self-hostable platform for deploying any application, database, or service on your own servers. It is an alternative to Heroku, Netlify, and Vercel.",
+          "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+          "version_or_commit": "91b7e3e509dee1eb5cee7c41fe151be03b03092e",
+          "checked_at": "2026-11-21T21:17:35.754883+08:00",
+          "snapshot_path": "sources/snapshots/coollabsio--coolify-readme.txt",
+          "line_start": 10,
+          "line_end": 10,
+          "upstream_excerpt": "Coolify is an open-source, self-hostable platform for deploying **any application, database, or service** on your own servers. It is an alternative to Heroku, Netlify, and Vercel.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "coollabsio--coolify-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Coolify is an open-source, self-hostable platform for deploying any application, database, or service on your own servers. It is an alternative to Heroku, Netlify, and Vercel.",
+          "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+          "version_or_commit": "91b7e3e509dee1eb5cee7c41fe151be03b03092e",
+          "checked_at": "2026-11-21T21:17:35.754883+08:00",
+          "snapshot_path": "sources/snapshots/coollabsio--coolify-readme.txt",
+          "line_start": 10,
+          "line_end": 10,
+          "upstream_excerpt": "Coolify is an open-source, self-hostable platform for deploying **any application, database, or service** on your own servers. It is an alternative to Heroku, Netlify, and Vercel.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "coollabsio--coolify-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/LICENSE",
+          "version_or_commit": "91b7e3e509dee1eb5cee7c41fe151be03b03092e",
+          "checked_at": "2026-11-21T21:17:35.754883+08:00",
+          "snapshot_path": "sources/snapshots/coollabsio--coolify-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/coollabsio--coolify-observation.json"
+    },
+    {
+      "name": "Dokku",
+      "repository": "dokku/dokku",
+      "url": "https://github.com/dokku/dokku",
+      "clone_url": "https://github.com/dokku/dokku.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:40.516551+08:00",
+      "version_or_commit": "a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/README.md",
+          "final_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/README.md",
+          "path": "sources/snapshots/dokku--dokku-readme.txt",
+          "sha256": "c5c8ff1180ec6b2bc23fff6c10427d719c69a71e8b1f6f41aaf96394169410b9",
+          "http_status": 200,
+          "line_count": 116,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/LICENSE",
+          "path": "sources/snapshots/dokku--dokku-license.txt",
+          "sha256": "b1ac2fed5ac269fb7bbf651a3d37ef5fd56d2c33320e17cb6e23a22a93f5c046",
+          "http_status": 200,
+          "line_count": 7,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/dokku/dokku.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\na0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "dokku--dokku-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/LICENSE",
+          "version_or_commit": "a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8",
+          "checked_at": "2026-11-21T21:17:40.516551+08:00",
+          "snapshot_path": "sources/snapshots/dokku--dokku-license.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dokku-dokku-curated-1",
+          "field": "decision_axis_1",
+          "statement": "Docker-powered single-host PaaS",
+          "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/README.md",
+          "version_or_commit": "a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8",
+          "checked_at": "2026-11-21T21:17:40.516551+08:00",
+          "snapshot_path": "sources/snapshots/dokku--dokku-readme.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen.",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        },
+        {
+          "claim_id": "dokku-dokku-curated-2",
+          "field": "decision_axis_2",
+          "statement": "Mini-Heroku/PaaS deployment model",
+          "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/README.md",
+          "version_or_commit": "a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8",
+          "checked_at": "2026-11-21T21:17:40.516551+08:00",
+          "snapshot_path": "sources/snapshots/dokku--dokku-readme.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "Docker powered mini-Heroku. The smallest PaaS implementation you've ever seen.",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        }
+      ],
+      "evidence_record": "sources/snapshots/dokku--dokku-observation.json"
+    },
+    {
+      "name": "Rancher",
+      "repository": "rancher/rancher",
+      "url": "https://github.com/rancher/rancher",
+      "clone_url": "https://github.com/rancher/rancher.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:40.936421+08:00",
+      "version_or_commit": "531c5f6744731c4a279374ac00a8c442a8c40fdb",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/README.md",
+          "final_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/README.md",
+          "path": "sources/snapshots/rancher--rancher-readme.txt",
+          "sha256": "4b697af03e544ce074a7281e61faeb2144ae31c65d23d5dd20a1efa0447cdccd",
+          "http_status": 200,
+          "line_count": 70,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/LICENSE",
+          "path": "sources/snapshots/rancher--rancher-license.txt",
+          "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+          "http_status": 200,
+          "line_count": 178,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/rancher/rancher.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n531c5f6744731c4a279374ac00a8c442a8c40fdb\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "rancher--rancher-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Please see Installation Requirements for hardware and software requirements.",
+          "upstream_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/README.md",
+          "version_or_commit": "531c5f6744731c4a279374ac00a8c442a8c40fdb",
+          "checked_at": "2026-11-21T21:17:40.936421+08:00",
+          "snapshot_path": "sources/snapshots/rancher--rancher-readme.txt",
+          "line_start": 33,
+          "line_end": 33,
+          "upstream_excerpt": "  * Please see [Installation Requirements](https://ranchermanager.docs.rancher.com/getting-started/installation-and-upgrade/installation-requirements) for hardware and software requirements.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "rancher--rancher-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/LICENSE",
+          "version_or_commit": "531c5f6744731c4a279374ac00a8c442a8c40fdb",
+          "checked_at": "2026-11-21T21:17:40.936421+08:00",
+          "snapshot_path": "sources/snapshots/rancher--rancher-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "rancher-rancher-curated-1",
+          "field": "decision_axis_1",
+          "statement": "Container management platform; Kubernetes operations",
+          "upstream_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/README.md",
+          "version_or_commit": "531c5f6744731c4a279374ac00a8c442a8c40fdb",
+          "checked_at": "2026-11-21T21:17:40.936421+08:00",
+          "snapshot_path": "sources/snapshots/rancher--rancher-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "Rancher is an open source container management platform built for organizations that deploy containers in production. Rancher makes it easy to run Kubernetes everywhere, meet IT requirements, and empower DevOps teams.",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        },
+        {
+          "claim_id": "rancher-rancher-curated-2",
+          "field": "decision_axis_2",
+          "statement": "Kubernetes fleet, not a Compose editor",
+          "upstream_url": "https://raw.githubusercontent.com/rancher/rancher/531c5f6744731c4a279374ac00a8c442a8c40fdb/README.md",
+          "version_or_commit": "531c5f6744731c4a279374ac00a8c442a8c40fdb",
+          "checked_at": "2026-11-21T21:17:40.936421+08:00",
+          "snapshot_path": "sources/snapshots/rancher--rancher-readme.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "Rancher is an open source container management platform built for organizations that deploy containers in production. Rancher makes it easy to run Kubernetes everywhere, meet IT requirements, and empower DevOps teams.",
+          "review_result": "manually_located_supporting_declaration",
+          "verification_scope": "upstream declaration only"
+        }
+      ],
+      "evidence_record": "sources/snapshots/rancher--rancher-observation.json"
+    },
+    {
+      "name": "Runtipi",
+      "repository": "runtipi/runtipi",
+      "url": "https://github.com/runtipi/runtipi",
+      "clone_url": "https://github.com/runtipi/runtipi.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:45.282019+08:00",
+      "version_or_commit": "881559aebc745eb61cb2e35e7b351ddac25caa7e",
+      "branch_at_observation": "develop",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/README.md",
+          "final_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/README.md",
+          "path": "sources/snapshots/runtipi--runtipi-readme.txt",
+          "sha256": "2ae5a05cdb03e082b9841b811c940b18cf9bcbaba84ad8235d6e229f535647bd",
+          "http_status": 200,
+          "line_count": 174,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/LICENSE",
+          "path": "sources/snapshots/runtipi--runtipi-license.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/runtipi/runtipi.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/develop\tHEAD\n881559aebc745eb61cb2e35e7b351ddac25caa7e\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "runtipi--runtipi-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Runtipi is a personal homeserver orchestrator that makes it easy to manage and run multiple services on a single server. It is based on Docker and comes with a simple web interface to manage your serv\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/README.md",
+          "version_or_commit": "881559aebc745eb61cb2e35e7b351ddac25caa7e",
+          "checked_at": "2026-11-21T21:17:45.282019+08:00",
+          "snapshot_path": "sources/snapshots/runtipi--runtipi-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "Runtipi is a personal homeserver orchestrator that makes it easy to manage and run multiple services on a single server. It is based on Docker and comes with a simple web interface to manage your services. Runtipi is designed to be easy to use, so you don't have to worry about manual configuration or networking. Simply install Runtipi on your server and use the web interface to add and manage services. You can see a list of available services in the [App Store repo](https://github.com/runtipi/runtipi-appstore) and if you can't find what you're looking for, there are many community app stores to choose from and you can even create your own. To get started with Runtipi, follow the installation instructions below.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "runtipi--runtipi-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Runtipi is a personal homeserver orchestrator that makes it easy to manage and run multiple services on a single server. It is based on Docker and comes with a simple web interface to manage your serv\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/README.md",
+          "version_or_commit": "881559aebc745eb61cb2e35e7b351ddac25caa7e",
+          "checked_at": "2026-11-21T21:17:45.282019+08:00",
+          "snapshot_path": "sources/snapshots/runtipi--runtipi-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "Runtipi is a personal homeserver orchestrator that makes it easy to manage and run multiple services on a single server. It is based on Docker and comes with a simple web interface to manage your services. Runtipi is designed to be easy to use, so you don't have to worry about manual configuration or networking. Simply install Runtipi on your server and use the web interface to add and manage services. You can see a list of available services in the [App Store repo](https://github.com/runtipi/runtipi-appstore) and if you can't find what you're looking for, there are many community app stores to choose from and you can even create your own. To get started with Runtipi, follow the installation instructions below.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "runtipi--runtipi-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/LICENSE",
+          "version_or_commit": "881559aebc745eb61cb2e35e7b351ddac25caa7e",
+          "checked_at": "2026-11-21T21:17:45.282019+08:00",
+          "snapshot_path": "sources/snapshots/runtipi--runtipi-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/runtipi--runtipi-observation.json"
+    },
+    {
+      "name": "CasaOS",
+      "repository": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "clone_url": "https://github.com/IceWhaleTech/CasaOS.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:47.466536+08:00",
+      "version_or_commit": "e099dd6b4982a264663df2536a55bfea2ae5448a",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+          "final_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+          "path": "sources/snapshots/icewhaletech--casaos-readme.txt",
+          "sha256": "0627ea809c98d6a918bf76e5ec058ff9ff129db8c352b5b9c861fa059a1a48ad",
+          "http_status": 200,
+          "line_count": 257,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/LICENSE",
+          "path": "sources/snapshots/icewhaletech--casaos-license.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/IceWhaleTech/CasaOS.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\ne099dd6b4982a264663df2536a55bfea2ae5448a\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "icewhaletech--casaos-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Easily install numerous Docker apps",
+          "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+          "version_or_commit": "e099dd6b4982a264663df2536a55bfea2ae5448a",
+          "checked_at": "2026-11-21T21:17:47.466536+08:00",
+          "snapshot_path": "sources/snapshots/icewhaletech--casaos-readme.txt",
+          "line_start": 99,
+          "line_end": 99,
+          "upstream_excerpt": "- Easily install numerous Docker apps",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "icewhaletech--casaos-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Over 100,000 apps from the Docker ecosystem can be easily installed",
+          "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+          "version_or_commit": "e099dd6b4982a264663df2536a55bfea2ae5448a",
+          "checked_at": "2026-11-21T21:17:47.466536+08:00",
+          "snapshot_path": "sources/snapshots/icewhaletech--casaos-readme.txt",
+          "line_start": 100,
+          "line_end": 100,
+          "upstream_excerpt": "  - Over 100,000 apps from the Docker ecosystem can be easily installed",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "icewhaletech--casaos-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- The cost of computing power and storage was decreasing fast.",
+          "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+          "version_or_commit": "e099dd6b4982a264663df2536a55bfea2ae5448a",
+          "checked_at": "2026-11-21T21:17:47.466536+08:00",
+          "snapshot_path": "sources/snapshots/icewhaletech--casaos-readme.txt",
+          "line_start": 81,
+          "line_end": 81,
+          "upstream_excerpt": "- The cost of computing power and storage was decreasing fast.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "icewhaletech--casaos-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/LICENSE",
+          "version_or_commit": "e099dd6b4982a264663df2536a55bfea2ae5448a",
+          "checked_at": "2026-11-21T21:17:47.466536+08:00",
+          "snapshot_path": "sources/snapshots/icewhaletech--casaos-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/icewhaletech--casaos-observation.json"
+    },
+    {
+      "name": "Dokploy",
+      "repository": "Dokploy/dokploy",
+      "url": "https://github.com/Dokploy/dokploy",
+      "clone_url": "https://github.com/Dokploy/dokploy.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:17:50.222839+08:00",
+      "version_or_commit": "3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449",
+      "branch_at_observation": "canary",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+          "final_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+          "path": "sources/snapshots/dokploy--dokploy-readme.txt",
+          "sha256": "866f602a92d0e5b4fa0cef2db728ac928865c49401c066ad0399eead916c6bf9",
+          "http_status": 200,
+          "line_count": 65,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/LICENSE.MD",
+          "final_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/LICENSE.MD",
+          "path": "sources/snapshots/dokploy--dokploy-license.txt",
+          "sha256": "0c29d37f1ed4dbbcd0dcf03c9f1605c6f7b8112fb702bf6f61c6e81868845a61",
+          "http_status": 200,
+          "line_count": 23,
+          "upstream_filename": "LICENSE.MD"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Dokploy/dokploy.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/canary\tHEAD\n3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "dokploy--dokploy-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Docker Compose: Native support for Docker Compose to manage complex applications. - Multi Node: Scale applications to multiple nodes using Docker Swarm to manage the cluster.",
+          "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+          "version_or_commit": "3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449",
+          "checked_at": "2026-11-21T21:17:50.222839+08:00",
+          "snapshot_path": "sources/snapshots/dokploy--dokploy-readme.txt",
+          "line_start": 24,
+          "line_end": 25,
+          "upstream_excerpt": "- **Docker Compose**: Native support for Docker Compose to manage complex applications.\n- **Multi Node**: Scale applications to multiple nodes using Docker Swarm to manage the cluster.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dokploy--dokploy-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Dokploy is a free, self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases.",
+          "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+          "version_or_commit": "3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449",
+          "checked_at": "2026-11-21T21:17:50.222839+08:00",
+          "snapshot_path": "sources/snapshots/dokploy--dokploy-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "Dokploy is a free, self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dokploy--dokploy-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Dokploy is a free, self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases.",
+          "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+          "version_or_commit": "3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449",
+          "checked_at": "2026-11-21T21:17:50.222839+08:00",
+          "snapshot_path": "sources/snapshots/dokploy--dokploy-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "Dokploy is a free, self-hostable Platform as a Service (PaaS) that simplifies the deployment and management of applications and databases.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dokploy--dokploy-license",
+          "field": "license_model",
+          "statement": "Apache-2.0 outside /proprietary; that directory, if present, uses LICENSE_PROPRIETARY",
+          "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/LICENSE.MD",
+          "version_or_commit": "3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449",
+          "checked_at": "2026-11-21T21:17:50.222839+08:00",
+          "snapshot_path": "sources/snapshots/dokploy--dokploy-license.txt",
+          "line_start": 1,
+          "line_end": 23,
+          "upstream_excerpt": "Copyright 2026-present Dokploy Technology, Inc.\n\nPortions of this software are licensed as follows:\n\n* All content that resides under a \"/proprietary\" directory of this repository, if that directory exists, is licensed under the license defined in \"LICENSE_PROPRIETARY\".\n* Content outside of the above mentioned directories or restrictions above is available under the \"Apache License 2.0\" license as defined below.\n\n## Apache License 2.0\n\nCopyright 2026-present Dokploy Technology, Inc.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and limitations under the License.\n\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/dokploy--dokploy-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.899571+08:00",
+  "review_round": "narrow_remediation"
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "louislam/dockge",
+  "checked_at": "2026-11-21T21:17:28.103180+08:00",
+  "revision": "0329dabb5003f206d4fd9f7403a6af26d7138497",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/louislam/dockge.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n0329dabb5003f206d4fd9f7403a6af26d7138497\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md",
+      "final_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md",
+      "path": "sources/snapshots/louislam--dockge-readme.txt",
+      "sha256": "30189a5bc9d869934fcd34d11f44e1f9ac36387554d73fd318263ba014cbe32d",
+      "http_status": 200,
+      "line_count": 207,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/LICENSE",
+      "path": "sources/snapshots/louislam--dockge-license.txt",
+      "sha256": "855cc98448b71dd58af101ded07b601e2c7aa02167f7663b5b9282a99c61ad61",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "IceWhaleTech/CasaOS",
+  "checked_at": "2026-11-21T21:17:47.466536+08:00",
+  "revision": "e099dd6b4982a264663df2536a55bfea2ae5448a",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/IceWhaleTech/CasaOS.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\ne099dd6b4982a264663df2536a55bfea2ae5448a\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+      "final_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/README.md",
+      "path": "sources/snapshots/icewhaletech--casaos-readme.txt",
+      "sha256": "0627ea809c98d6a918bf76e5ec058ff9ff129db8c352b5b9c861fa059a1a48ad",
+      "http_status": 200,
+      "line_count": 257,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/IceWhaleTech/CasaOS/e099dd6b4982a264663df2536a55bfea2ae5448a/LICENSE",
+      "path": "sources/snapshots/icewhaletech--casaos-license.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

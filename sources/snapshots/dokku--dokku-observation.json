@@ -1,0 +1,38 @@
+{
+  "repository": "dokku/dokku",
+  "checked_at": "2026-11-21T21:17:40.516551+08:00",
+  "revision": "a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/dokku/dokku.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\na0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/README.md",
+      "final_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/README.md",
+      "path": "sources/snapshots/dokku--dokku-readme.txt",
+      "sha256": "c5c8ff1180ec6b2bc23fff6c10427d719c69a71e8b1f6f41aaf96394169410b9",
+      "http_status": 200,
+      "line_count": 116,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/dokku/dokku/a0de8c22b4f75d54ddb587f65f6d9ccf456ebcc8/LICENSE",
+      "path": "sources/snapshots/dokku--dokku-license.txt",
+      "sha256": "b1ac2fed5ac269fb7bbf651a3d37ef5fd56d2c33320e17cb6e23a22a93f5c046",
+      "http_status": 200,
+      "line_count": 7,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

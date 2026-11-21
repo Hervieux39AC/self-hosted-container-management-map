@@ -1,0 +1,38 @@
+{
+  "repository": "Yacht-sh/Yacht",
+  "checked_at": "2026-11-21T21:17:29.144031+08:00",
+  "revision": "dd5058baa0e7f9e77ae1c24b68b4b13411cac14e",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Yacht-sh/Yacht.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\ndd5058baa0e7f9e77ae1c24b68b4b13411cac14e\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+      "final_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/README.md",
+      "path": "sources/snapshots/yacht-sh--yacht-readme.txt",
+      "sha256": "ca98aaedf3d7cd45799cead35a85a2e15267784c2d47beb5636c52464185bb2a",
+      "http_status": 200,
+      "line_count": 174,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Yacht-sh/Yacht/dd5058baa0e7f9e77ae1c24b68b4b13411cac14e/LICENSE",
+      "path": "sources/snapshots/yacht-sh--yacht-license.txt",
+      "sha256": "3d130577bd4404be11184b1d301a06f17d74f9102de84533d3af65d3ea9fa4f6",
+      "http_status": 200,
+      "line_count": 642,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "Dokploy/dokploy",
+  "checked_at": "2026-11-21T21:17:50.222839+08:00",
+  "revision": "3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449",
+  "branch": "canary",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Dokploy/dokploy.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/canary\tHEAD\n3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+      "final_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/README.md",
+      "path": "sources/snapshots/dokploy--dokploy-readme.txt",
+      "sha256": "866f602a92d0e5b4fa0cef2db728ac928865c49401c066ad0399eead916c6bf9",
+      "http_status": 200,
+      "line_count": 65,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/LICENSE.MD",
+      "final_url": "https://raw.githubusercontent.com/Dokploy/dokploy/3b13bcde8dca8b4ec0e4d48445b2aa1b0c183449/LICENSE.MD",
+      "path": "sources/snapshots/dokploy--dokploy-license.txt",
+      "sha256": "0c29d37f1ed4dbbcd0dcf03c9f1605c6f7b8112fb702bf6f61c6e81868845a61",
+      "http_status": 200,
+      "line_count": 23,
+      "upstream_filename": "LICENSE.MD"
+    }
+  ],
+  "failures": []
+}

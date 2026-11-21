@@ -1,0 +1,38 @@
+{
+  "repository": "coollabsio/coolify",
+  "checked_at": "2026-11-21T21:17:35.754883+08:00",
+  "revision": "91b7e3e509dee1eb5cee7c41fe151be03b03092e",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/coollabsio/coolify.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n91b7e3e509dee1eb5cee7c41fe151be03b03092e\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+      "final_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/README.md",
+      "path": "sources/snapshots/coollabsio--coolify-readme.txt",
+      "sha256": "0cd76a343571f0025f3ff22df095a3ab4c745e73543fe1b48609ba3f158c6477",
+      "http_status": 200,
+      "line_count": 252,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/coollabsio/coolify/91b7e3e509dee1eb5cee7c41fe151be03b03092e/LICENSE",
+      "path": "sources/snapshots/coollabsio--coolify-license.txt",
+      "sha256": "1a3e7d8a466b117e9c26062db5fd6a59bb03caf617517d1f57a4bc7f29dc9d24",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

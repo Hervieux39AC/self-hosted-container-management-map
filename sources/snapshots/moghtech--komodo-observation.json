@@ -1,0 +1,38 @@
+{
+  "repository": "moghtech/komodo",
+  "checked_at": "2026-11-21T21:17:29.121374+08:00",
+  "revision": "780ac68b992094a9fccd5fffb760e0c84fd3c3d1",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/moghtech/komodo.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n780ac68b992094a9fccd5fffb760e0c84fd3c3d1\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/LICENSE",
+      "path": "sources/snapshots/moghtech--komodo-license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    },
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/readme.md",
+      "final_url": "https://raw.githubusercontent.com/moghtech/komodo/780ac68b992094a9fccd5fffb760e0c84fd3c3d1/readme.md",
+      "path": "sources/snapshots/moghtech--komodo-readme.txt",
+      "sha256": "59a871c5feb6223994537eadd63b1717c6b1215c0eb8dcc8e139808bf64d80ea",
+      "http_status": 200,
+      "line_count": 51,
+      "upstream_filename": "readme.md"
+    }
+  ],
+  "failures": []
+}

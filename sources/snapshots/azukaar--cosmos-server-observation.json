@@ -1,0 +1,38 @@
+{
+  "repository": "azukaar/Cosmos-Server",
+  "checked_at": "2026-11-21T21:17:31.960340+08:00",
+  "revision": "fa0a6523888d05c2b62540777aa29b0e875f1940",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/azukaar/Cosmos-Server.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nfa0a6523888d05c2b62540777aa29b0e875f1940\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/readme.md",
+      "final_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/readme.md",
+      "path": "sources/snapshots/azukaar--cosmos-server-readme.txt",
+      "sha256": "2c62707c057d47d73dc8403012ab785f343903b5615eb1061a3781145f4bf123",
+      "http_status": 200,
+      "line_count": 304,
+      "upstream_filename": "readme.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/LICENCE",
+      "final_url": "https://raw.githubusercontent.com/azukaar/Cosmos-Server/fa0a6523888d05c2b62540777aa29b0e875f1940/LICENCE",
+      "path": "sources/snapshots/azukaar--cosmos-server-license.txt",
+      "sha256": "0ee85bb2ca17f136a2cefb4f7a65f6560b4a4373f84a2fb2a4b53954de77ce11",
+      "http_status": 200,
+      "line_count": 256,
+      "upstream_filename": "LICENCE"
+    }
+  ],
+  "failures": []
+}

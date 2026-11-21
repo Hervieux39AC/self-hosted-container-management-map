@@ -1,0 +1,38 @@
+{
+  "repository": "runtipi/runtipi",
+  "checked_at": "2026-11-21T21:17:45.282019+08:00",
+  "revision": "881559aebc745eb61cb2e35e7b351ddac25caa7e",
+  "branch": "develop",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/runtipi/runtipi.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/develop\tHEAD\n881559aebc745eb61cb2e35e7b351ddac25caa7e\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/README.md",
+      "final_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/README.md",
+      "path": "sources/snapshots/runtipi--runtipi-readme.txt",
+      "sha256": "2ae5a05cdb03e082b9841b811c940b18cf9bcbaba84ad8235d6e229f535647bd",
+      "http_status": 200,
+      "line_count": 174,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/runtipi/runtipi/881559aebc745eb61cb2e35e7b351ddac25caa7e/LICENSE",
+      "path": "sources/snapshots/runtipi--runtipi-license.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
