@@ -1,8 +1,9 @@
 # Self-Hosted Container Management Map
 
-> **Decision:** Choose how much state the control plane should own: container inspection, Compose files, multi-host deployment, an app-store appliance, a PaaS, or Kubernetes management.
 
-**For:** Home-lab and small-team operators who have outgrown raw Compose commands.  
+> **Decision:** Use this map to decide how much state a container control plane should own before choosing a dashboard, app appliance, PaaS, or Kubernetes manager; skip it if recovery still depends on that same UI.
+>
+> **For:** home-lab operators and small teams outgrowing raw Compose commands  ·  **Not for:** teams seeking a universal platform or unwilling to test a dashboard-free recovery path
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ Export one stack, stop the control plane, and prove you can still identify image
 
 Deployment control-plane ownership, not a code forge or a Kubernetes security benchmark.
 
+## Adjacent guides
+
+- [self-hosted-uptime-monitoring-map](https://github.com/RoryReeses/self-hosted-uptime-monitoring-map) — Use it to monitor containerized services and prove the alert path independently of the control plane.
+- [open-source-secrets-management-landscape](https://github.com/RichardPadavttan/open-source-secrets-management-landscape) — Use it when container workloads need secrets without baking plaintext into images or Compose files.
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when volumes, manifests, and control-plane state need a tested restore workflow.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
